@@ -1,6 +1,15 @@
 h1 {
     text-align: center;
-    text-decoration: underline;
+}
+body {
+    background-color: #ECE1D2
+}
+ 
+#Title {
+    color: black;
+    text-align: left;
+    font-size: 2rem;
+    font-family: Oldschool, sans-serif;
 }
 
 div > div {
@@ -9,10 +18,6 @@ div > div {
     border-radius: 5px;
     border: 1px solid #ccc;
     margin-top: 5px;
-}
-
-body > div:nth-of-type(3) {
-    text-align: center;
 }
 
 div:nth-of-type(3) span {
