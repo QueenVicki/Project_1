@@ -1,8 +1,9 @@
 h1 {
     text-align: center;
+    color:aqua;
 }
 body {
-    background-color: #ECE1D2
+    background-color: #be3d3d /*background with 50% opacity */
 }
  
 #Title {
@@ -12,15 +13,3 @@ body {
     font-family: Oldschool, sans-serif;
 }
 
-div > div {
-    background: #c6f6c6;
-    padding: 10px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    margin-top: 5px;
-}
-
-div:nth-of-type(3) span {
-    color: blue;
-    text-decoration: underline;
-}
