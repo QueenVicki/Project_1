@@ -1,15 +1,16 @@
 h1 {
     text-align: center;
     color:aqua;
+    font-size: large;
 }
 body {
-    background-color: #be3d3d /*background with 50% opacity */
+    background-color: #ECE1D2 /*background with 50% opacity */
 }
  
 #Title {
     color: black;
     text-align: left;
-    font-size: 2rem;
+    font-size: xx-large;
     font-family: Oldschool, sans-serif;
 }
 
