@@ -10,10 +10,9 @@ body{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-
-    /*Generic project styles*/
     Color: #ECE1D2;
 }
+    /*Generic project styles*/
 #home {
     min-height: 100vh;
 }
