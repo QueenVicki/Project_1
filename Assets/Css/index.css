@@ -1,5 +1,8 @@
+/*Google font*/
+@import url('https://fonts.googleapis.com/css2?family=Hanalei&family=Oswald:wght@200..700&display=swap');
+
 /* Asterisk wildcard selector to overide default styles added by the browser*/
-{
+*{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -12,7 +15,8 @@ body{
     flex-direction: column;
     Color: #ECE1D2;
 }
-    /*Generic project styles*/
+
+ /*Generic project styles*/
 #home {
     min-height: 100vh;
 }
@@ -23,12 +27,21 @@ body{
     text-align: left;
     font-size: xx-large;
     font-family: Oldschool, sans-serif;
-}
+      }
+
+/* Google fonts import */
+.hanalei-regular {
+    font-family: "Hanalei", system-ui;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 60px;
+    color: darkgreen;
+  }
 
 /*Main Content*/
 
 main {
-    background-color: #7d3146 
+    background-color: #7d3146; 
     flex: 1 0 auto;
 }
 
