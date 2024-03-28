@@ -1,51 +1,186 @@
-/*Google font*/
-@import url('https://fonts.googleapis.com/css2?family=Hanalei&family=Oswald:wght@200..700&display=swap');
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
-/* Asterisk wildcard selector to overide default styles added by the browser*/
+
+/* Asterisk wildcard selector to override default styles added by the browser*/
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
+div#banner { 
+    position: sticky; 
+    top: 0; 
+    left: 0; 
+    background-color: #DDEEEE; 
+    width: 100%; 
+  }
+  div#banner-content { 
+    width: 800px; 
+    margin: 0 auto; 
+    padding: 10px; 
+    border: none;
+    text-align: center;
+  }
+  div#main-content { 
+    padding-top: 70px;
+    text-align: center;
+ }
+ 
 /*General style*/
 body{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    Color: #ECE1D2;
+
+    /*Generic project styles*/
+    Color: #3a3a3a;
+    font-family:'Lato',sans-serif;
 }
 
- /*Generic project styles*/
+/*header*/
+
+header {
+    background-color: #A1E8C4;
+    padding: 0 1rem;
+    position: fixed;
+    z-index:99;
+    width: 100%;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+header a{
+    text-decoration: none;
+    color: inherit;
+}
+.header1 {
+    right:0%;
+    width: 50%;
+    height: 100%;
+
+}
+
+/* Banner */
+    
+h1{
+    font-family: 'Oswald',sans-serif; 
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #252525;
+}
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    list-style-type: none;
+}
+
+#menu >Li {
+    margin-bottom: 1em;
+}
+
 #home {
-    min-height: 100vh;
+        min-height: 100vh;
+    }    
+
+    .active {
+        border-bottom: 1px solid #3a3a3a;
+    }
+
+    /* Navbar styles with dropdown toggle */
+nav {
+    position:absolute;
+    background-color: #A1E8C4;
+    width: 100%;
+    left:0;
+    padding: 0 1 rem;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: none;
+    top:100%;
 }
-/*Header*/
 
-#Title {
-    color: black;
-    text-align: left;
-    font-size: xx-large;
-    font-family: Oldschool, sans-serif;
-      }
+/* Nav toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
 
-/* Google fonts import */
-.hanalei-regular {
-    font-family: "Hanalei", system-ui;
-    font-weight: 600;
-    font-style: normal;
-    font-size: 60px;
-    color: darkgreen;
-  }
+#nav-toggle {
+    display: none;
+}
 
-/*Main Content*/
+.nav-toggle-label {
+    font-size: 2rem;
+}
+/* Main Content */
 
 main {
-    background-color: #7d3146; 
+    background-color:#A1E8C4; 
+     
+    /* Make main element take up any surplus space to push footer down */
+
     flex: 1 0 auto;
+    margin-top: 47px;
 }
 
 /*Footer*/
-footer {
-    background-color: rgb(36, 56, 97); opacity: 0.8; /*light blue*/
+ 
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #3a3a3a;
+}
+
+
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu > li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    #logo {
+        font-size: 280%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+
+    /* Main content */
+    main {
+        /* Push main content down to accommodate larger header */
+        margin-top: 79px;
+    }
+
+/* Large devices (laptops and desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+    #menu a:hover{
+        border-bottom: 1px solid #3a3a3a;
+    }
 }
