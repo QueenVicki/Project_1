@@ -9,24 +9,6 @@
     box-sizing: border-box;
 }
 
-div#banner { 
-    position: sticky; 
-    top: 0; 
-    left: 0; 
-    background-color: #DDEEEE; 
-    width: 100%; 
-  }
-  div#banner-content { 
-    width: 800px; 
-    margin: 0 auto; 
-    padding: 10px; 
-    border: none;
-    text-align: center;
-  }
-  div#main-content { 
-    padding-top: 70px;
-    text-align: center;
- }
  
 /*General style*/
 body{
@@ -56,12 +38,6 @@ header {
 header a{
     text-decoration: none;
     color: inherit;
-}
-.header1 {
-    right:0%;
-    width: 50%;
-    height: 100%;
-
 }
 
 /* Banner */
@@ -126,7 +102,43 @@ main {
     margin-top: 47px;
 }
 
+    /* Hero image */
+
+.hero-image {
+    right:0%;
+    width: 50%;
+    height: 100%;
+    background: url("/Assets/Images/Banner_image/hero_image.png")no-repeat center center/cover;
+    position: flex;
+    }
+    .hero-image img{max-width: 180%}
+
+    /* Banner */
+    
+div#banner { 
+        position: sticky; 
+        top: 0; 
+        left: 0; 
+        background-color: #DDEEEE; 
+        width: 100%; 
+      }
+div#banner-content { 
+        width: 100%; 
+        margin: 0 auto; 
+        padding: 10px; 
+        border: none;
+        text-align: center;
+      }
+div#main-content { 
+        padding-top: 70px;
+        text-align: center;
+     }
+
 /*Footer*/
+
+footer {
+    height:50px;
+}
  
 #social-networks {
     text-align: center;
@@ -142,6 +154,11 @@ main {
     color: #3a3a3a;
 }
 
+/* Media query: Mobile and larger (600px and up) */
+@media screen and (min-width: 600px) {
+    #menu a:hover{
+        border-bottom: 1px solid #3a3a3a; }
+}
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
@@ -171,12 +188,17 @@ main {
         line-height: 75px;
         margin: 0 0.5rem;
     }
+    
+    .hero-image img{
+        max-width: 200%;
+    }
 
     /* Main content */
     main {
         /* Push main content down to accommodate larger header */
         margin-top: 79px;
     }
+}
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
