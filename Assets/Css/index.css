@@ -134,6 +134,34 @@ div#main-content {
         text-align: center;
      }
 
+     /* Contact Us Banner */
+
+
+.contact-hero {
+    position: sticky; 
+    top: 0; 
+    left: 0; 
+    position: flex;
+}
+.contact-hero img{
+    max-width: 180%;
+    width: 100%;
+    Border: 2px solid black
+
+}
+
+/* Contact Us Form  */
+form{
+    width: 33%;
+    border: 2px solid black;
+    margin-left: 33%;
+    background-color: lightgrey;
+
+}
+#button {
+    margin-left: 33%;
+}
+
 /*Footer*/
 
 footer {
