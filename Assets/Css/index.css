@@ -40,6 +40,19 @@ header a{
     color: inherit;
 }
 
+/* About us section */
+
+#benefits-physical > div,
+
+#about_us > div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+#about p {
+    padding: 0 20px;
+}
+
 /* Banner */
     
 h1{
@@ -132,7 +145,53 @@ div#banner-content {
 div#main-content { 
         padding-top: 70px;
         text-align: center;
+
      }
+
+     /* About Us Page  */
+    #content-heading {
+        padding-top: 10px;
+        padding-right: 80px;
+        padding-left: 50px;
+        content: center;
+    }
+    #content-page{
+        padding: 25px 50px 75px;
+    
+    }
+
+    #Join-us_button{
+        font-size: 12px;
+        text-align: center;
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+        transition-duration: 0.4s;
+        background-color: #04AA6D; /* Green */
+        color: white;
+        padding: 12px 28px;
+        
+        a:link {
+            text-decoration: none;
+            color: #ffff;
+          }
+          
+          a:visited {
+            text-decoration: none;
+            color: #ffff;
+          }
+          
+          a:hover {
+            text-decoration: underline;
+          }
+          
+          a:active {
+            text-decoration: underline;
+          }
+    }
+    #button_position {
+        padding: 5px 0;
+        text-align: center;
+    }
+
 
      /* Contact Us Banner */
 
@@ -156,6 +215,7 @@ form{
     border: 2px solid black;
     margin-left: 33%;
     background-color: lightgrey;
+
 
 }
 #button {
@@ -195,6 +255,7 @@ footer {
 @media screen and (min-width: 600px) {
     #menu a:hover{
         border-bottom: 1px solid #3a3a3a; }
+   
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
@@ -230,7 +291,6 @@ footer {
     main {
         /* Push main content down to accommodate larger header */
         margin-top: 79px;
-    }
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
