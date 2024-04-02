@@ -7,7 +7,7 @@
       http-equiv="x-UA-Compatible"
       content="IE=edge"
     />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!--Meta tags for search engines -->
     <meta
@@ -85,8 +85,7 @@
 
     <!-- Main content -->
     <main>
-
-      <div class="contact-hero">
+<div class ="contact-hero"> 
         <img src="Assets/Images/Banner_image/We.svg">
       </div>
 
@@ -97,23 +96,26 @@
       </p>
       <hr />
 
-      <form>
-        <div>
+      <form
+      action="/action_page.php"
+      id="sign-up"
+      >
           <label for="name-field">Full Name</label>
           <input
             id="name-field"
             type="text"
             name="full_name"
             placeholder="Full name"
+            class="form-control"
           />
         </div>
       </br>
-      <div class="container">
-        <form action="/action_page.php">
+      <div>
           <label for="email-field">Email</label>
-          <input id="email-field" type="email" placeholder="Your Email" />
+          <input id="email-field" type="email" placeholder="Your Email" class="form-control">
         </div>
       </br>
+    
       <label for="name-field">What country are you from? </label>
       
       <select id="country" name="country" class="form-control"  placeholder="Your country">
@@ -364,7 +366,14 @@
         <option value="Zimbabwe">Zimbabwe</option>
         </select>
       </br>
+    </br>
+    <div>
+      <label for="textarea">Tell us more:</label>
       </br>
+        <textarea rows="8" cols="50" name="comment" class="form-control"> Tell us any ideas you have and how we can help and what countries you'd like to exchange with
+    </textarea>
+      </div>
+    </br>
       </form>
 
       <input type="submit" value="Submit" id="button"/>

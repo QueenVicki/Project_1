@@ -222,6 +222,10 @@ form{
     margin-left: 33%;
 }
 
+.form-control {
+    width: 70%;
+}
+
 /*Footer*/
 
 footer {
