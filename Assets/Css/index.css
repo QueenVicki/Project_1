@@ -42,7 +42,7 @@ header a{
 
 /* About us section */
 
-#benefits-physical > div,
+/* #benefits-physical > div, */
 
 #about_us > div {
     line-height: 20px;
@@ -167,8 +167,8 @@ div#main-content {
         transition-duration: 0.4s;
         background-color: #04AA6D; /* Green */
         color: white;
-        padding: 12px 28px;
-        
+        padding: 12px 28px; 
+
         a:link {
             text-decoration: none;
             color: #ffff;
@@ -187,11 +187,6 @@ div#main-content {
             text-decoration: underline;
           }
     }
-    #button_position {
-        padding: 5px 0;
-        text-align: center;
-    }
-
 
      /* Contact Us Banner */
 
