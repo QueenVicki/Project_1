@@ -13,15 +13,20 @@ This project was created using: HTML, CSS.
 <ol>
 <li> <a href="#section_1"> User Experience </a> </li>
     <ul>
-    <li> User stories </li>
+    <li><a href="#section_2"> User stories </a> </li>
     </ul>
-<li>Design </li>
+<li><a href="#section_3">Design </a> </li>
     <ul>
-    <li> Colours </li>
+    <li><a href="#section_4"> Colours </a></li>
+    <li> <a href="#section_5"> Wireframes  </a></li>
     </ul>
-<li> Wireframes </li>
-<li> Features </li>
-<li> Testing </li>
+<li><a href="#section_6"> Purpose </a></li>
+<li> <a href="#section_7">Testing </a></li>
+<ul>
+    <li> <a href="#section_8">HTML Validation </a> </li>
+    <li><a href="#section_9"> Lighthouse </a> </li>
+</ul>
+<li> <a href="#section_10">Final notes </a> </li>
 </ol>
 
 <h2> <div id="section_1"> User Experiences <div></h2>
@@ -29,36 +34,39 @@ This project was created using: HTML, CSS.
 <h3> Target audience: </h3>
 The target for this page are those who love to explore culture and try didfferent things so different countries will be targeted
 
-<h3> User Story: </h3>
+<h3><div id="section_2">  User Story: </div></h3>
 
 - As a user I want to find somewhere I can speak to people from around the world and share my culture with them
 - As a user I want to connect with a community from a different culture
 - As a user I want to get and understand things from another country that I don't yet currently understand
 
-<h2> Design </h2>
-<h3> Wireframes mockups</h3>
+<h2><div id="section_3">  Design </div></h2>
+
+<h3><div id="section_4">  Colours used to design the webpage are below: <div></h3>
+<img src="Assets/Images/color palette.png">
+
+<h3><div id="section_5">  Wireframes mockups </div></h3>
 <img src="Assets/Images/Design/Homepage and About us page draft.jpg">
 <img src="Assets/Images/Design/Contact us page draft.jpg">
 
-Colours used to design the webpage are below:
-<img src="Assets/Images/color palette.png">
-
-<h2> Purpose of the pages </h2>
+<h2> <div id="section_6"> Purpose of the pages </div></h2>
 #Homepage - To let them know what GBX is about and give them options. 
 #AboutUs - To let them know what the page is about and how they can join us 
 #Contact-Us - An opportunity for people to register their interest in the business or suggestions of a country they'd like to learn from.
 
-<h2> HTML Validation </h2>
-<h3> Homepage </h3>
+<h2> <div id="section_7"> Testing</div> </h2>
+
+<h3> <div id="section_8"> HTML Validation </div> </h3>
+<p> Homepage </p>
 <img src="Assets/Images/Validator checks/Homepage HTML validator.jpg">
 <br>
-<h3> About Us </h3>
+<p> About Us </p>
 <img src="Assets/Images/Validator checks/About us page HTML.jpg">
 <br>
-<h3> Contact </h3>
+<p> Contact </p>
 <img src="Assets/Images/Validator checks/Contact Us HTML validator.jpg">
 
-<h2> Lighthouse Report</h2>
+<h3><div id="section_9"> Lighthouse Report </div></h3>
 
 <h3> Homepage </h3>
 <img src="Assets/Images/Lighthouse report_home.png">
@@ -69,7 +77,7 @@ Colours used to design the webpage are below:
 <h3> Contact us page </h3>
 <img src="Assets/Images/Lighthouse report_contact.png">
 
-<h2> Final Notes</h2>
+<h2><div id="section_10"> Final Notes <div></h2>
 <ol>
 <li>
 <p> A few issues noted on the pages to fix at a later date such as (About us page formatting) </p>
