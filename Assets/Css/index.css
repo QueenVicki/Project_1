@@ -153,40 +153,37 @@ div#main-content {
         padding-top: 10px;
         padding-right: 80px;
         padding-left: 50px;
-        content: center;
+        margin-left:35%;
     }
-    #content-page{
+    #content-page {
         padding: 25px 50px 75px;
-    
+        background-color: #4e8962;
+        color: #ffff; 
     }
+    
+    #content-page_1 {
+        padding: 25px 50px 75px;
+        background-color: #f5f5f5;
+        text-decoration-color: #104229;
+        text-align: center;
+    }
+    
 
     #Join-us_button{
         font-size: 12px;
         text-align: center;
-        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+        box-shadow: 10px 10px 5px #888888;
         transition-duration: 0.4s;
-        background-color: #04AA6D; /* Green */
+        background-color: #4e8962;
         color: white;
-        padding: 12px 28px; 
+        padding: 12px 28px;
+        margin: left 15%
+}
 
-        a:link {
-            text-decoration: none;
-            color: #ffff;
-          }
-          
-          a:visited {
-            text-decoration: none;
-            color: #ffff;
-          }
-          
-          a:hover {
-            text-decoration: underline;
-          }
-          
-          a:active {
-            text-decoration: underline;
-          }
-    }
+    #Join-us_button > a:link {text-decoration: none; color: #ffff;} 
+    #Join-us_button > a:visited {text-decoration: none; color: #ffff;}
+    #Join-us_button > a:hover {text-decoration: underline;}
+    #Join-us_button > a:active {text-decoration: underline;}
 
      /* Contact Us Banner */
 

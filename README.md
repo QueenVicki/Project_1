@@ -18,12 +18,53 @@ This project was created using: HTML, CSS.
 3. Features
 4. Testing
 
-<h2> User Experiences </h2> 
+<h2> User Experiences </h2>
+
 <h3> Target audience: </h3>
 The target for this page are those who love to explore culture and try didfferent things so different countries will be targeted
 
-<h3> User Story:</h3>
+<h3> User Story: </h3>
 
 - As a user I want to find somewhere I can speak to people from around the world and share my culture with them
 - As a user I want to connect with a community from a different culture
 - As a user I want to get and understand things from another country that I don't yet currently understand
+
+<h2> Design </h2>
+<h3> Wireframes mockups</h3>
+<img src="Assets/Images/Design/Homepage and About us page draft.jpg">
+<img src="Assets/Images/Design/Contact us page draft.jpg">
+
+Colours used to design the webpage are below:
+<img src="Assets/Images/color palette.png">
+
+<h2> Purpose of the pages </h2>
+#Homepage - To let them know what GBX is about and give them options. 
+#AboutUs - To let them know what the page is about and how they can join us 
+#Contact-Us - An opportunity for people to register their interest in the business or suggestions of a country they'd like to learn from.
+
+<h2> HTML Validation </h2>
+<h3> Homepage </h3>
+<img src="Assets/Images/Validator checks/Homepage HTML validator.jpg">
+<br>
+<h3> About Us </h3>
+<img src="Assets/Images/Validator checks/About us page HTML.jpg">
+<br>
+<h3> Contact </h3>
+<img src="Assets/Images/Validator checks/Contact Us HTML validator.jpg">
+
+<h2> Lighthouse Report</h2>
+
+<h3> Homepage </h3>
+<img src="Assets/Images/Lighthouse report_home.png">
+
+<h3> About us page </h3>
+<img src="Assets/Images/Lighthouse report_about.png">
+
+<h3> Contact us page </h3>
+<img src="Assets/Images/Lighthouse report_contact.png">
+
+<h2> Final Notes</h2>
+- A few issues noted on the pages to fix at a later date such as (About us page formatting)
+- With more time the about us page would have developed to have images breaking up each layer
+- With more time the contact us page would have looked more appealing with a GIF or more designed background page. 
+- More information on countried that are involved and how people can connect to a buddy.
