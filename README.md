@@ -64,7 +64,18 @@ Colours used to design the webpage are below:
 <img src="Assets/Images/Lighthouse report_contact.png">
 
 <h2> Final Notes</h2>
-- A few issues noted on the pages to fix at a later date such as (About us page formatting)
-- With more time the about us page would have developed to have images breaking up each layer
-- With more time the contact us page would have looked more appealing with a GIF or more designed background page. 
-- More information on countried that are involved and how people can connect to a buddy.
+<ol>
+<li>
+<p> A few issues noted on the pages to fix at a later date such as (About us page formatting) </p>
+</li>
+<li>
+<p> With more time the about us page would have developed to have images breaking up each layer </p>
+</li>
+<li>
+<p>With more time the contact us page would have looked more appealing with a GIF or more designed background page. 
+</p>
+</li>
+<li>
+<p> More information on countried that are involved and how people can connect to a buddy. </p>
+</li>
+</ol>
