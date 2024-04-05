@@ -9,16 +9,22 @@ GlobalBuddy Exchange is a business idea that was created after disuccsion with a
 This project was created using: HTML, CSS.
 
 <img src="Assets/Images/Byte website responsiveness photo.png">
-## Table of Contents
-1. User Experience
-- User stories
-2. Design 
-- Colours 
-- Wireframes
-3. Features
-4. Testing
+<h2>>Table of Contents</h2>
+<ol>
+<li> <a href="#section_1"> User Experience </a> </li>
+    <ul>
+    <li> User stories </li>
+    </ul>
+<li>Design </li>
+    <ul>
+    <li> Colours </li>
+    </ul>
+<li> Wireframes </li>
+<li> Features </li>
+<li> Testing </li>
+</ol>
 
-<h2> User Experiences </h2>
+<h2> <div id="section_1"> User Experiences <div></h2>
 
 <h3> Target audience: </h3>
 The target for this page are those who love to explore culture and try didfferent things so different countries will be targeted
