@@ -9,7 +9,7 @@ GlobalBuddy Exchange is a business idea that was created after disuccsion with a
 This project was created using: HTML, CSS.
 
 <img src="Assets/Images/Byte website responsiveness photo.png">
-<h2>>Table of Contents</h2>
+<h2>Table of Contents</h2>
 <ol>
 <li> <a href="#section_1"> User Experience </a> </li>
     <ul>
